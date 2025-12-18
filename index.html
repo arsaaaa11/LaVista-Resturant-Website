@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>La Vista | Fine Dining</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="hero" id="home">
+<nav class="navbar">
+  <h1 class="logo">LaVista</h1>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#reservation">Reservation</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="hamburger" id="hamburger">☰</div>
+</nav>
+
+
+   <div class="hero-content">
+  <span class="hero-tagline">Fine Dining & Signature Taste</span>
+
+  <h2 class="hero-title">Luxury Dining Experience</h2>
+
+  <p class="hero-desc">
+    Crafted by master chefs and served in an atmosphere of timeless elegance.
+  </p>
+
+  <div class="hero-buttons">
+    <a href="#reservation" class="btn">Reserve a Table</a>
+    <a href="#menu" class="btn btn-outline">Explore Menu</a>
+  </div>
+</div>
+
+  </header>
+
+  <section class="menu reveal" id="menu">
+  <h2 class="section-title">Our Menu</h2>
+  <p class="section-subtitle">A taste of perfection</p>
+
+  <div class="menu-container">
+
+    <div class="menu-card">
+      <h3>Starters</h3>
+      <ul>
+        <li>
+          <span>Garlic Bread</span>
+          <span>₹180</span>
+        </li>
+        <li>
+          <span>Cheese Balls</span>
+          <span>₹220</span>
+        </li>
+        <li>
+          <span>Paneer Tikka</span>
+          <span>₹260</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="menu-card">
+      <h3>Main Course</h3>
+      <ul>
+        <li>
+          <span>Butter Chicken</span>
+          <span>₹420</span>
+        </li>
+        <li>
+          <span>Paneer Butter Masala</span>
+          <span>₹360</span>
+        </li>
+        <li>
+          <span>Dal Makhani</span>
+          <span>₹280</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="menu-card">
+      <h3>Desserts</h3>
+      <ul>
+        <li>
+          <span>Chocolate Lava Cake</span>
+          <span>₹200</span>
+        </li>
+        <li>
+          <span>Gulab Jamun</span>
+          <span>₹150</span>
+        </li>
+        <li>
+          <span>Ice Cream Sundae</span>
+          <span>₹180</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="reservation reveal" id="reservation">
+  <h2 class="section-title">Reserve a Table</h2>
+  <p class="section-subtitle">Book your experience</p>
+
+  <form class="reservation-form" id="reserveForm">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <input type="date" id="date">
+    <input type="time" id="time">
+    <input type="number" id="guests" placeholder="Number of Guests">
+
+    <button type="submit" class="btn">Book Now</button>
+    <p class="success-msg" id="successMsg"></p>
+  </form>
+</section>
+<section class="gallery reveal" id="gallery">
+  <h2 class="section-title">Our Gallery</h2>
+  <p class="section-subtitle">Moments of taste & elegance</p>
+
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="images/g1.jpg" alt="Food">
+    <div class="overlay">LaVista</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/g2.jpg" alt="Restaurant">
+     <div class="overlay">LaVista</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/g3.jpg" alt="Dessert">
+       <div class="overlay">LaVista</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/g4.jpg" alt="Dining">
+       <div class="overlay">LaVista</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/g5.jpg" alt="Ambience">
+      <div class="overlay">LaVista</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/g6.png" alt="Chef Special">
+       <div class="overlay">LaVista</div>
+    </div>
+  </div>
+</section>
+<section class="contact reveal" id="contact">
+  <h2 class="section-title">Contact Us</h2>
+  <p class="section-subtitle">We’d love to serve you</p>
+
+  <div class="contact-container">
+
+    <div class="contact-info">
+      <p><strong>📍 Address:</strong> Hazratganj, Lucknow, India</p>
+      <p><strong>📞 Phone:</strong> +91 89358 88921</p>
+      <p><strong>📧 Email:</strong> lavista@restaurant.com</p>
+      <p><strong>🕒 Timings:</strong> 11:00 AM – 11:00 PM</p>
+    </div>
+
+    <div class="map">
+      <iframe 
+        src="https://www.google.com/maps?q=Hazratganj%20Lucknow&output=embed"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 LaVista Restaurant | Designed by Arsalan</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
