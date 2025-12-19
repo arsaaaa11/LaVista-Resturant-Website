@@ -162,7 +162,7 @@ body {
 
 .hero-content {
   text-align: center;
-  margin: 180px auto;
+  margin: 100px auto;
   max-width: 700px;
   padding: 20px;
 }
@@ -199,7 +199,7 @@ body {
 } */
 .btn {
   padding: 16px 40px;          /* ⬆ bigger button */
-  font-size: 18px;             /* ⬆ text size */
+  font-size: 16px;             /* ⬆ text size */
   font-weight: 600;
 
   border-radius: 999px;        /* luxury pill shape */
@@ -211,7 +211,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  min-width: 220px;            /* 🔥 same width buttons */
+  min-width: 200px;            /* 🔥 same width buttons */
   transition: all 0.3s ease;
 }
 
